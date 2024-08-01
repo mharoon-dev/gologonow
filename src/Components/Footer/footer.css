@@ -10,7 +10,11 @@
 
 .right {
     width: 400px;
-    border-right: var(--white-color) 1px solid;
+    border-right: var(--white-color) 1px solid !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
 }
 
 .footerTitle {
@@ -18,21 +22,22 @@
     font-size: larger;
     text-transform: uppercase;
     margin-bottom: 15px;
+    color: var(--white-color) !important;
 }
 
 .footerTitle>span {
-    color: var(--primary-color);
+    color: var(--primary-color) !important;
     font-weight: normal;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .footerDescription {
-    color: var(--secondary-color);
+    color: var(--white-color) !important;
     margin-bottom: 20px;
     font-weight: 300;
     line-height: 1.4;
-    text-align: center !important;
+    text-align: left !important;
 }
 
 .footerDescriptionEmail {
@@ -42,13 +47,13 @@
 
 .footerMiddle {
     width: 400px;
-    border-right: var(--white-color) 1px solid;
+    border-right: var(--white-color) 1px solid !important;
     padding-left: 50px;
     height: 100%;
 }
 
 .footerList {
-    color: var(--secondary-color);
+    color: var(--white-color) !important;
     list-style: none;
     line-height: 1.4;
     padding-left: 0;
@@ -154,8 +159,8 @@
         margin-top: 30px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
     }
 
     .footerMiddle {
