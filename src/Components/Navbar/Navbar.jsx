@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ExpandMore, ExpandLess } from "@mui/icons-material";
 import "./Navbar.css";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import EmailIcon from "@mui/icons-material/Email";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 
 const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -53,6 +56,7 @@ const Navbar = () => {
           <span className="bar bar3"></span>
         </div>
       </nav>
+
       <div
         className={`sidebar-overlay ${sidebarOpen ? "open" : ""}`}
         onClick={closeSidebar}
@@ -64,6 +68,7 @@ const Navbar = () => {
           <span className="close-btn" onClick={closeSidebar}>
             &times;
           </span>
+
           <ul className="sidebar-menu">
             <Link to="/" style={{ textDecoration: "none" }}>
               <li className={location === "/" ? "active" : ""}>Home</li>
@@ -71,12 +76,16 @@ const Navbar = () => {
             <Link to="/about" style={{ textDecoration: "none" }}>
               <li className={location === "/about" ? "active" : ""}>About</li>
             </Link>
-            <div className="d-flex justify-content-start align-items-center">
+            <div
+              className="d-flex justify-content-start align-items-center"
+              style={{ height: "fit-content", margin: 0 }}
+            >
               <Link
                 to="/services"
                 style={{ textDecoration: "none", color: "lightGray" }}
               >
                 <li
+                  style={{ margin: 0 }}
                   id="seriveceItem"
                   className={location === "/services" ? "active" : ""}
                 >
@@ -151,6 +160,28 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
+
+          <div className="sidebar-footer">
+            <h4
+              style={{
+                color: "var(--primary-color)",
+                textAlign: "left",
+                fontWeight: "900",
+              }}
+            >
+              &nbsp;&nbsp;&nbsp;OFFICE IN UK
+            </h4>
+            <div className="d-flex">
+            &nbsp;&nbsp;&nbsp;<LocationOnIcon style={{ marginTop: "30px" }} className="icons" />
+              <p style={{ marginTop: "30px", color: "var(--text-color)" }}>
+                314 Midsummer Boulevard, Milton Keynes MK9 2UB, United Kingdom
+              </p>
+            </div>
+            <p style={{ marginTop: "20px", color: "var(--text-color)" }}>
+            &nbsp;&nbsp;&nbsp;<LocalPhoneIcon className="icons" />
+              +44 (0190) 8086110
+            </p>
+          </div>
         </div>
       </div>
     </div>
