@@ -1,0 +1,27 @@
+.button {
+    display: inline-block;
+    padding: 18px 60px;
+    border-radius: 30px !important;
+    background-color: var(--text-color) !important;
+    color: var(--white-color) !important;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: background-color 0.3s ease;
+    letter-spacing: 0.8px;
+}
+
+.button:hover {
+    background-color: var(--primary-color) !important;
+}
+
+@media (max-width: 568px) {
+
+    .button {
+        font-size: 12px;
+        padding: 20px 30px;
+        text-align: center !important;
+    }
+
+}

@@ -1,0 +1,112 @@
+.aboutColumnContainer {
+    display: flex;
+    background-color: var(--text-color);
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    width: 100%;
+    padding: 0 60px 0 120px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.aboutColumnContainer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--text-color);
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.aboutColumnContentBox {
+    width: 310px;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 2 !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    height: 100%;
+}
+
+.aboutColumnContentBox::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    background-color: var(--primary-color);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.aboutColumnContentBox:hover::before {
+    width: 100%;
+    left: 0;
+    transform: translateX(0);
+}
+
+.aboutColumnHeading {
+    width: 100%;
+    line-height: 1.2em;
+    display: block;
+    font-size: 40px;
+    color: var(--primary-color);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+}
+
+.aboutColumnSubHeading {
+    width: 100%;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 700 !important;
+    color: var(--white-color);
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .aboutColumnContainer {
+        padding: 0px !important;
+    }
+
+    .aboutColumnContentBox {
+        width: 100%;
+    }
+
+    .aboutColumnHeading {
+        font-size: 30px !important;
+    }
+
+    .aboutColumnSubHeading {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutColumnContainer {
+        flex-direction: column;
+        height: 75vh;
+    }
+
+    .aboutColumnContentBox {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 20px;
+    }
+}

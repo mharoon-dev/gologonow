@@ -1,0 +1,114 @@
+.questionsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+    background-image: url("../../../public/assets/aboutWeDo/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    column-gap: 10px;
+}
+
+.questionLeft {
+    width: 50%;
+}
+
+.questionsHeading {
+    font-size: 2.8rem;
+    color: var(--text-color);
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.questionsHeading>span {
+    color: var(--primary-color);
+}
+
+.questionsDescription {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    line-height: 1.4;
+}
+
+@media (max-width: 1400px) {
+    .questionsContainer {
+        padding: 100px 100px;
+    }
+
+    .questionLeft {
+        width: 60%;
+    }
+
+    .questionsHeading {
+        font-size: 2.5rem;
+    }
+
+    .questionsDescription {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .questionsContainer {
+        padding: 100px 50px;
+    }
+
+    .questionLeft {
+        width: 70%;
+    }
+
+    .questionsHeading {
+        font-size: 2rem;
+    }
+
+    .questionsDescription {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .questionsContainer {
+        flex-direction: column;
+        padding: 100px 20px;
+    }
+
+    .questionLeft {
+        width: 100%;
+    }
+
+    .questionsHeading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .questionsDescription {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .right {
+        margin-top: 50px;
+    }
+
+    .right>div {
+        margin-bottom: 30px;
+    }
+
+    .right>div:last-child {
+        margin-bottom: 0;
+    }
+
+    .right>div>h3 {
+        font-size: 1.5rem;
+    }
+
+    .right>div>p {
+        font-size: 1.1rem;
+    }
+
+
+}

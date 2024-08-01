@@ -1,0 +1,157 @@
+@keyframes slideFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.galleryContainer {
+    margin-top: 80px;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.galleryheading {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 900 !important;
+    font-size: 44px;
+    line-height: 1.2;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.galleryheading.active {
+    animation: slideFromBottom 0.5s ease forwards;
+}
+
+.galleryheading>span {
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.categories {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.category {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: var(--secondary-color);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.category.active {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.items {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin: 20px;
+}
+
+.item-icon {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.item-title {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+@media (max-width: 1024px) {
+    .items {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .galleryheading {
+        font-size: 2rem;
+    }
+
+    .categories {
+        margin-bottom: 10px;
+    }
+
+    .category {
+        margin: 5px;
+        padding: 5px 10px;
+        font-size: 1.2rem;
+    }
+
+    .item {
+        width: 100px;
+    }
+
+    .item-title {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .galleryheading {
+        font-size: 1.5rem;
+    }
+
+    .category {
+        margin: 3px;
+        padding: 5px 8px;
+        font-size: 1rem;
+    }
+
+    .items {
+        justify-content: space-around;
+    }
+
+    .item {
+        width: 80px;
+    }
+
+    .item-title {
+        font-size: 0.8rem;
+    }
+}

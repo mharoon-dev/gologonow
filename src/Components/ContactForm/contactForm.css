@@ -1,0 +1,232 @@
+.contactFormContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px 100px 0px !important;
+    column-gap: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    width: 50%;
+    padding-left: 0;
+}
+
+.titleContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.contactTitle {
+    width: 100%;
+    text-align: center !important;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    line-height: 1;
+    font-weight: 900;
+    margin: 0;
+}
+
+.address {
+    width: 100%;
+    text-align: center !important;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 1;
+    margin: 0;
+}
+
+.viewLocation {
+    width: 100%;
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1;
+    text-align: center;
+}
+
+.buildingIconContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.buildingIcon {
+    width: 100%;
+    height: 100%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.contactFormHeading {
+    width: 100%;
+    text-align: center !important;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--text-color);
+    line-height: 1;
+    margin: 0;
+}
+
+.contactFormHeading>span {
+    color: var(--primary-color);
+}
+
+.contactFormDescription {
+    width: 100%;
+    text-align: center !important;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1;
+    margin: 0;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid var(--white-color) !important;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1;
+    margin: 0;
+    background-color: var(--white-color);
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap !important;
+    width: 100%;
+}
+
+input {
+    width: 45% !important;
+    margin: 10px;
+    height: 60px;
+}
+
+textarea {
+    max-height: 200px;
+    max-width: 100%;
+    min-height: 200px;
+    min-width: 100%;
+}
+
+.sendBtn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 35px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 25px 50px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    width: 200px !important;
+}
+
+input,
+textarea>:focus {
+    outline: none;
+}
+
+.sendBtn:hover {
+    background-color: var(--text-color);
+    color: var(--white-color);
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .contactFormContainer {
+        flex-direction: column;
+        padding: 100px 0px 100px 0px !important;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .titleContainer {
+        margin-left: 0 !important;
+    }
+
+    .right {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .inputContainer {
+        flex-direction: column;
+        column-gap: 0 !important;
+        row-gap: 0 !important;
+    }
+
+    input {
+        width: 90% !important;
+        margin: 10px;
+        height: 60px;
+    }
+
+    textarea {
+        max-height: 200px;
+        max-width: 90% !important;
+        min-height: 200px;
+        min-width: 90% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .sendBtn {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 35px;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--text-color);
+        line-height: 1;
+        background-color: var(--primary-color);
+        margin: 0;
+        padding: 25px 50px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+        width: 200px !important;
+        margin: 0 auto !important;
+    }
+
+}

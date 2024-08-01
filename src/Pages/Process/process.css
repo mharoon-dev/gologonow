@@ -1,0 +1,59 @@
+.processSectionContainer {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../public/assets/process/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 40px 180px;
+    box-sizing: border-box;
+}
+
+.processSectionHeading {
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.processSectionHeading>span {
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.processSectionDescription {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .processSectionContainer {
+        padding: 40px 50px;
+    }
+
+    .processSectionHeading {
+        font-size: 40px;
+        text-align: center !important;
+    }
+
+    .processSectionDescription {
+        font-size: 16px;
+        text-align: center !important;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .processSectionContainer {
+        padding: 40px 20px;
+    }
+
+    .processSectionHeading {
+        font-size: 30px;
+    }
+
+    .processSectionDescription {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,24 @@
+.yellowButton {
+    display: inline-block;
+    padding: 18px 60px;
+    border-radius: 30px !important;
+    background-color: var(--primary-color) !important;
+    color: var(--text-color) !important;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.yellowButton:hover {
+    background-color: var(--secondary-color) !important;
+    color: var(--white-color) !important;
+}
+
+@media (max-width: 568px) {
+    .yellowButton {
+        font-size: 16px;
+        padding: 20px 30px;
+        text-align: center !important;
+    }
+}
