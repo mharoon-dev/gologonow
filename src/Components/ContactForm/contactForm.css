@@ -117,7 +117,7 @@ textarea {
     color: var(--text-color);
     line-height: 1;
     margin: 0;
-    background-color: var(--white-color);
+    background-color: #f4f5f8 !important;
 }
 
 .inputContainer {
