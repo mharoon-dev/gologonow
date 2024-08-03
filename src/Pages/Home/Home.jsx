@@ -16,7 +16,7 @@ const Home = () => {
       <Navbar />
       <Banner />
       <ServiceSection />
-      <WeDoSection />
+      {/* <WeDoSection /> */}
       <Column />
       <Banner2 />
       <Gallery />

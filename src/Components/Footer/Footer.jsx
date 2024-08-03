@@ -16,6 +16,10 @@ const Footer = () => {
           We are a digital agency providing and catering to wide spectrum of
           digital design, development and marketing services.
         </p>
+        <p className="footerDescription">
+          we transform offline businesses into successful online operations with
+          customized digital strategies.
+        </p>
 
         <h4 className="footerTitle">
           <span>Administrative Office</span>
@@ -23,12 +27,13 @@ const Footer = () => {
 
         <p className="footerDescription">
           <LocationOnIcon className="icons" />
-          11803 Canyon Mills Dr, Houston, TX 77905
+          289 Hounslow Road, Hanworth, Feltham, TW13 5JQ, Greater London ,
+          UK11803 Canyon Mills Dr, Houston, TX 77905
         </p>
 
         <b className="footerDescriptionEmail">
           <EmailIcon className="icons" />
-          support@gologonow.com
+          support@uxdconsults.com
         </b>
       </div>
 
@@ -56,12 +61,13 @@ const Footer = () => {
           <div className="d-flex ">
             <LocationOnIcon className="icons" />
             <p className="footeraddress">
-              314 Midsummer Boulevard, Milton Keynes MK9 2UB, United Kingdom
+              289 Hounslow Road, Hanworth, Feltham, TW13 5JQ, Greater London ,
+              UK11803 Canyon Mills Dr, Houston, TX 77905
             </p>
           </div>
           <p className="phone">
             <LocalPhoneIcon className="icons" />
-            +44 (0190) 8086110
+            +44 758 7864 204
           </p>
         </div>
       </div>

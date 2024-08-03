@@ -9,8 +9,6 @@
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .columnContainer::before {

@@ -19,7 +19,7 @@ const SingleService = () => {
     {
       img: idea,
       heading: "LEARNING YOUR POINT OF VIEW.",
-      text: "The steps towards logo creation originate from you. We are all about keeping your vision at the center. Our industry-specific designers work their way through every detail that you have come up with. Moving forward, we compile these ideas and begin our research.",
+      text: "We support design solutions that are accessible, moral, and provide everyone the same chances.Every project is approached by our UI/UX designers using flexible techniques to determine the optimal line of action۔Our tried-and-true strategies has established us as the industry standard for design. ",
     },
     {
       img: research,

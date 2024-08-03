@@ -47,7 +47,7 @@ const Navbar = () => {
       <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
         <Link to="/">
           <div className="logo">
-            <img src="../../assets/logo.png" width="70px" alt="Company Logo" />
+            <img src="../../assets/logo.svg" width="220px" alt="Company Logo" />
           </div>
         </Link>
         <div className="mobile-nav-toggler" onClick={toggleSidebar}>
@@ -172,13 +172,15 @@ const Navbar = () => {
               &nbsp;&nbsp;&nbsp;OFFICE IN UK
             </h4>
             <div className="d-flex">
-            &nbsp;&nbsp;&nbsp;<LocationOnIcon style={{ marginTop: "30px" }} className="icons" />
+              &nbsp;&nbsp;&nbsp;
+              <LocationOnIcon style={{ marginTop: "30px" }} className="icons" />
               <p style={{ marginTop: "30px", color: "var(--text-color)" }}>
                 314 Midsummer Boulevard, Milton Keynes MK9 2UB, United Kingdom
               </p>
             </div>
             <p style={{ marginTop: "20px", color: "var(--text-color)" }}>
-            &nbsp;&nbsp;&nbsp;<LocalPhoneIcon className="icons" />
+              &nbsp;&nbsp;&nbsp;
+              <LocalPhoneIcon className="icons" />
               +44 (0190) 8086110
             </p>
           </div>

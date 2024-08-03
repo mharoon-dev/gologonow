@@ -33,7 +33,6 @@ const ServiceSection = () => {
       title: "BRANDING",
       location: "branding",
     },
-
     {
       icon: contentWriting,
       number: "05",
@@ -47,7 +46,7 @@ const ServiceSection = () => {
         {/* Heading */}
         <div className="headingContainer">
           <h1 className="heading">
-            SHAPING YOUR FUTURE WITH <span>PRECISION.</span>
+            FORGING YOUR FUTURE WITH UNMATCHED <span>ACCURACY.</span>
           </h1>
         </div>
         {/* paragraph */}

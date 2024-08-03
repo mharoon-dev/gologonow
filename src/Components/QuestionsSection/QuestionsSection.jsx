@@ -14,19 +14,25 @@ const QuestionsSection = () => {
       number: "02",
       name: "APP DEVELOPMENT",
       details:
-        "Tech6 Solutions is a leading mobile app development company operating in the USA, UAE, Pakistan, and internationally. We Provide extensive customization and functionality leveraging Android’s broad reach and flexibility to enhance ROI. We are able to us Reac Native to deliver apps that work seamlessly across Android, iOS, and Windows, ensurin efficiency and consistency. We Offer customized web applications with potentia integration of hybrid and VR/AR features. ",
+        "Tech6 Solutions is a leading mobile app development company operating in the USA, UAE, Pakistan, and internationally. We Provide extensive customization and functionality leveraging Android’s broad reach and flexibility to enhance ROI. We are able to us Reac Native to deliver apps that work seamlessly across Android, iOS, and Windows, ensuring efficiency and consistency. We Offer customized web applications with potentia integration of hybrid and VR/AR features. ",
     },
     {
       number: "03",
-      name: "BRANDING",
+      name: "UI/UX",
       details:
-        "TFor a business to stand out from the competition and for marketing to be successful, it needs a strong brand identity. Tech6 Solutions offers comprehensive services in brand identity design, including strategy development, visual design, and audience targeting. Effective branding requires careful consideration of visual elements, target audience, and overall design intent",
+        "Tech6 Solutions thrive at the intersection of design and business through our UI UX design services and craft beautiful and functional experiences that can be launched quickly. We tackle difficult problem statements and transform them into meaningful experiences. ",
     },
     {
       number: "04",
-      name: "UI/UX",
+      name: "ANIMATIONS",
       details:
         "In the design line, we assist with logos, graphics, drawings, character and motion animations, 2D and 3D projects, and more.Our post-production experts produce the most unique and original material",
+    },
+    {
+      number: "05",
+      name: "BRANDING",
+      details:
+        "For a business to stand out from the competition and for marketing to be successful, it needs a strong brand identity. Tech6 Solutions offers comprehensive services in brand identity design, including strategy development, visual design, and audience targeting. Effective branding requires careful consideration of visual elements, target audience, and overall design intent",
     },
     {
       number: "05",
