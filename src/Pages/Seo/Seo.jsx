@@ -6,13 +6,13 @@ import Footer from "../../Components/Footer/Footer.jsx";
 import ServiceSection from "../../Components/ServiceSection/ServiceSection.jsx";
 
 // uiux
-import img1 from "../../../public/assets/singleService/branding/1.png";
-import img2 from "../../../public/assets/singleService/branding/2.png";
-import img3 from "../../../public/assets/singleService/branding/3.png";
-import img4 from "../../../public/assets/singleService/branding/4.png";
-import img5 from "../../../public/assets/singleService/branding/5.png";
-import img6 from "../../../public/assets/singleService/branding/6.png";
-import img7 from "../../../public/assets/singleService/branding/7.png";
+import img1 from "../../../public/assets/singleService/seo/1.png";
+import img2 from "../../../public/assets/singleService/seo/2.png";
+import img3 from "../../../public/assets/singleService/seo/3.png";
+import img4 from "../../../public/assets/singleService/seo/4.png";
+import img5 from "../../../public/assets/singleService/seo/5.png";
+import img6 from "../../../public/assets/singleService/seo/6.png";
+import img7 from "../../../public/assets/singleService/seo/7.png";
 import BlackButton from "../../Components/BlackButton/BlackButton.jsx";
 import YellowButton from "../../Components/YellowButton/YellowButton.jsx";
 import BrandingBanner from "../../Components/BrandingBanner/BrandingBanner.jsx";
