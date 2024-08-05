@@ -3,6 +3,7 @@ import ukImg from "../../../public/assets/footer/UK.png";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -43,10 +44,39 @@ const Footer = () => {
         </h4>
 
         <ul className="footerList">
-          <li>Our Sevices</li>
-          <li>Privacy Policy</li>
-          <li>Terms & Conditions</li>
-          <li>Contact Us</li>
+          <Link
+            to="/services"
+            style={{ textDecoration: "none", color: "var(--white-color)" }}
+          >
+            <li>Our Sevices</li>
+          </Link>
+          <br />
+          <Link
+            to="/privacy"
+            style={{
+              textDecoration: "none",
+              color: "var(--white-color)",
+              marginBottom: "30px !important",
+            }}
+          >
+            <li>Privacy Policy</li>
+          </Link>
+          <br />
+          <Link
+            to={"/terms"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <li style={{ marginTop: "10px !important" }}>Terms & Conditions</li>
+          </Link>
+          <br />
+
+          <Link
+            to="/contact"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <li>Contact Us</li>
+          </Link>
+          <br />
         </ul>
       </div>
 

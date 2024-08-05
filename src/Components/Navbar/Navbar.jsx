@@ -146,6 +146,14 @@ const Navbar = () => {
                     CONTENT WRITING{" "}
                   </li>
                 </Link>
+                <Link to="/services/seo" style={{ textDecoration: "none" }}>
+                  <li
+                    className={location === "/services/content" ? "active" : ""}
+                    id="list"
+                  >
+                    SEO{" "}
+                  </li>
+                </Link>
               </>
             )}
 

@@ -1,0 +1,41 @@
+.privacyHeading {
+    text-align: left;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+}
+
+.privacyDescription {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: var(--text-color);
+}
+
+.privacyDescription>span {
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.privacyContainerFluid {
+    background-image: url(../../../public/assets/aboutWeDo/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .privacyHeading {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .privacyDescription {
+        font-size: 16px;
+        text-align: center;
+    }
+
+}

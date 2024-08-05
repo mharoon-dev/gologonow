@@ -9,6 +9,9 @@ import Web from "./Pages/Web/Web.jsx";
 import SingleApp from "./Pages/SingleApp/SingleApp.jsx";
 import Branding from "./Pages/Branding/Branding.jsx";
 import Content from "./Pages/Content/Content.jsx";
+import Privacy from "./Pages/Privacy/Privacy.jsx";
+import Terms from "./Pages/Terms/Terms.jsx";
+import Seo from "./Pages/Seo/Seo.jsx";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route path="/services/app" element={<SingleApp />} />
           <Route path="/services/branding" element={<Branding />} />
           <Route path="/services/content" element={<Content />} />
+          <Route path="/services/seo" element={<Seo />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
           <Route path="/process" element={<Process />} />
         </Routes>
       </BrowserRouter>
