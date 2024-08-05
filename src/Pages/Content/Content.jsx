@@ -21,19 +21,19 @@ const Content = () => {
       img: img1,
       h2: "WRITING ",
       h2Span: "BLOG  ",
-      p1: "With the help of Tech6 Solutions expert writers grow your blog and reach millions of readers around the globe. Quality blog content is crucial for content marketing because it draws readers in, establishes your company as a market leader, and sparks their interest. Although producing content that drives results requires experience and effort, our blog writing services can speed up the process. Enable our talented group of skilled writers to handle all of your blogging requirements or to assist your in-house staff. ",
+      p1: "With the help of uxd Consults expert writers grow your blog and reach millions of readers around the globe. Quality blog content is crucial for content marketing because it draws readers in, establishes your company as a market leader, and sparks their interest. Although producing content that drives results requires experience and effort, our blog writing services can speed up the process. Enable our talented group of skilled writers to handle all of your blogging requirements or to assist your in-house staff. ",
     },
     {
       img: img2,
       h2: " COPY",
       h2Span: " WRITING",
-      p1: "Tech6 Solutions expert writers write quality copywriting that drives traffic and conversions. The act of creating text that informs readers about a company is known as copywriting. Copywriters provide written content that is intended to promote brands, increase sales, establish credibility, and show off their knowledge. For composing advertisements, landing pages, blog posts, white papers, email marketing campaigns, and social media postings, you can hire Tech6 Solutions copywriting service.",
+      p1: "uxd Consults expert writers write quality copywriting that drives traffic and conversions. The act of creating text that informs readers about a company is known as copywriting. Copywriters provide written content that is intended to promote brands, increase sales, establish credibility, and show off their knowledge. For composing advertisements, landing pages, blog posts, white papers, email marketing campaigns, and social media postings, you can hire uxd Consults copywriting service.",
     },
     {
       img: img3,
       h2: " WRITING ",
       h2Span: " E-BOOK ",
-      p1: "Writing an e-book is a big job. Let Tech6 Solutions expert writers help you out in writing an engaging e-book. A high-quality eBook can help you market your business and increase website traffic. By offering visitors a free eBook download in exchange for entering their email addresses, you can collect leads. Get the most out of your eBook investment by following up with your leads with email marketing campaigns. You can sell your eBook on Amazon Kindle, eBay, Click bank, or through other marketing channels to earn money directly if you're not trying to generate leads with it.",
+      p1: "Writing an e-book is a big job. Let uxd Consults expert writers help you out in writing an engaging e-book. A high-quality eBook can help you market your business and increase website traffic. By offering visitors a free eBook download in exchange for entering their email addresses, you can collect leads. Get the most out of your eBook investment by following up with your leads with email marketing campaigns. You can sell your eBook on Amazon Kindle, eBay, Click bank, or through other marketing channels to earn money directly if you're not trying to generate leads with it.",
     },
 
     {
@@ -60,7 +60,7 @@ const Content = () => {
             marginbottom: "20px",
           }}
         >
-          GO<span>LOGO</span>NOW
+          <span>UXD</span> Consults
         </h1>
         <h2>
           <span>Partner up</span> with the
@@ -83,8 +83,8 @@ const Content = () => {
 
       <p className="p">
         Producing top-notch content that converts leads into customers and
-        brings organic reach is a service you can get from Tech6 Solutions to
-        excel in your field and stay ahead of your competitors.
+        brings organic reach is a service you can get from uxd Consults to excel
+        in your field and stay ahead of your competitors.
       </p>
 
       <br />
@@ -128,9 +128,9 @@ const Content = () => {
           >
             <div className="col">
               <p className="webPageTextP">
-                Tech6 Solutions' skilled web developers work carefully on
-                website structure to optimize your website, ensuring that it has
-                an acceptable site structure that meets search engine standards.
+                uxd Consults' skilled web developers work carefully on website
+                structure to optimize your website, ensuring that it has an
+                acceptable site structure that meets search engine standards.
               </p>
             </div>
           </div>
@@ -141,10 +141,10 @@ const Content = () => {
           >
             <div className="col">
               <p className="webPageTextP">
-                On-page SEO is a simple method that the Tech6 Solutions team
-                uses to optimize individual pages of a website. It makes those
-                pages more search engine-friendly and easier for users to
-                understand. Regarding a website's exposure and engagement,
+                On-page SEO is a simple method that the uxd Consults team uses
+                to optimize individual pages of a website. It makes those pages
+                more search engine-friendly and easier for users to understand.
+                Regarding a website's exposure and engagement,
               </p>
             </div>
           </div>
@@ -155,7 +155,7 @@ const Content = () => {
                 className="webPageTextH5"
                 style={{ fontWeight: "700", fontSize: "18px" }}
               >
-                Tech6 Solutions has a proven process for enhanced ranking and
+                uxd Consults has a proven process for enhanced ranking and
                 organic traffic.
               </h5>
             </div>
@@ -362,8 +362,6 @@ const Content = () => {
       </div>
 
       <ServiceSection />
-      <br />
-      <br />
       <Footer />
     </>
   );

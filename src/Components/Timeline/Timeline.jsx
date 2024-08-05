@@ -42,7 +42,7 @@ const Timeline = () => {
       leftHeading: "PREPARING DESIGNS AND BLUEPRINTS",
       img: img5,
       rightText:
-        "Before beginning product development, it is critical to conduct workshops and prepare UI/UX designs. Tech6 Solutions focuses on originality. From simple design components to advanced UI designs, everything is pure and unique. ",
+        "Before beginning product development, it is critical to conduct workshops and prepare UI/UX designs. uxd Consults focuses on originality. From simple design components to advanced UI designs, everything is pure and unique. ",
     },
     {
       leftHeading: "DEVELOPMENT PHASE",
@@ -60,7 +60,7 @@ const Timeline = () => {
       leftHeading: "TECHNICAL SUPPORT AND MAINTANENCE ",
       img: img8,
       rightText:
-        "Once your project is completed, we will focus on providing you with easy technical assistance and maintenance. Tech6 Solutions provides complimentary maintenance on your goods for up to one month. This includes routine testing of all your product's features, as well as development or updates based on your specifications. ",
+        "Once your project is completed, we will focus on providing you with easy technical assistance and maintenance. uxd Consults provides complimentary maintenance on your goods for up to one month. This includes routine testing of all your product's features, as well as development or updates based on your specifications. ",
     },
   ];
   return (

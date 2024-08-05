@@ -214,25 +214,22 @@ const Privacy = () => {
       <br />
       <br />
 
-      <div className="container-fluid privacyContainerFluid">
-        <div class="container">
-          <div className="row">
-            <div className="col-12">
-              <h2 className="privacyHeading">Consent</h2>
-            </div>
-            <div className="col-12">
-              <p className="privacyDescription">
-                By consenting to this privacy notice you are giving us
-                permission to process your personal data specifically for the
-                purpose identified. Consent is required for <span>uxai</span>{" "}
-                Consults to process both types of personal data, but it must be
-                explicity given. Where we are asking for your sensitive personal
-                data we will always tell you why and how the information will be
-                used. You may withdraw consent at any time by Call or Via Email
-                as per the standard Withdrawal of Consent Procedure [ GDPR DOC
-                2.7A]
-              </p>
-            </div>
+      <div class="container">
+        <div className="row">
+          <div className="col-12">
+            <h2 className="privacyHeading">Consent</h2>
+          </div>
+          <div className="col-12">
+            <p className="privacyDescription">
+              By consenting to this privacy notice you are giving us permission
+              to process your personal data specifically for the purpose
+              identified. Consent is required for <span>UXD</span> Consults to
+              process both types of personal data, but it must be explicity
+              given. Where we are asking for your sensitive personal data we
+              will always tell you why and how the information will be used. You
+              may withdraw consent at any time by Call or Via Email as per the
+              standard Withdrawal of Consent Procedure [ GDPR DOC 2.7A]
+            </p>
           </div>
         </div>
       </div>

@@ -27,14 +27,14 @@ const SingleWeb = () => {
       h2Span: "WORDPRESS WEB DESIGNS",
       p1: "It is one of the most used CMS platforms, accounting for around 64 million sites. When it comes to building web designs, WordPress is quite versatile. It began as a blogging tool and has since taken over the online world. WordPress also allows you to add a variety of plugins and themes. Almost anything is possible with over 50,000 free plugins and 10,000+ themes.",
       p2: "Our WordPress developers specialize in WordPress plugin development and bespoke WordPress theme creation. Hundreds of complicated plugins, add-ons, and themes are available in our repository. This means we are always ready to assist you with a oneof-a-kind webs design",
-      h5: "Come onboard with Tech6 Solutions to get the best WordPress web designs at prices.",
+      h5: "Come onboard with uxd Consults to get the best WordPress web designs at prices.",
     },
     {
       img: research,
       h2: "INTUITIVE DEVELOPMENT WITH",
       h2Span: "HUBSPOT",
       p1: "HubSpot CMS Hub has transformed the game for many businesses and marketers. It can be used as a one-stop solution for content management and marketing. The HubSpot CRM is ideal for businesses seeking a unified solution to manage client interactions while expanding. Furthermore, it incorporates sales CRM and HubSpot's email marketing tool into its CMS, resulting in a smooth workflow. ",
-      h5: "Tech6 Solutions HubSpot Developers are experts in custom integrations using the HubSpot API, CRM, and CMS. Contact us today to get started on your HubSpot project",
+      h5: "uxd Consults HubSpot Developers are experts in custom integrations using the HubSpot API, CRM, and CMS. Contact us today to get started on your HubSpot project",
     },
     {
       img: woo,
@@ -57,7 +57,7 @@ const SingleWeb = () => {
       p1: "Drupal, an open-source CMS with unlimited features, outperforms practically all other CMS platforms. Its cultivated feature provides flexibility during API development. ",
       p2: "Another advantage of Drupal is that it allows for highly technical development and unparalleled customization. ",
       p3: "If the client's requirements are complex, we recommend that they begin their projects with Drupal. Our developers integrate Drupal with your vision, resulting in a secure and technical website. ",
-      h5: "Tech6 Solutions Drupal Developers are prepared to create websites for any industry. Start crafting your ambitions with us. ",
+      h5: "uxd Consults Drupal Developers are prepared to create websites for any industry. Start crafting your ambitions with us. ",
     },
     {
       img: wix,
@@ -82,7 +82,7 @@ const SingleWeb = () => {
       h2Span: "SHOPIFY ",
       p1: "Shopify's low-cost E-Commerce solution is good news for online businesses. Even if you run a physical firm, Shopify can assist you. It provides an organized store and inventory management, allowing you to start your own online business. ",
       p2: "Shopify also offers a large selection of themes to pick from. This provides a plethora of opportunities for experimenting with various site designs. Another advantage of Shopify is that you may incorporate different apps into your E-commerce site design. Shopify, an easy-to-use platform with considerable flexibility, can meet your commerce needs",
-      p3: "Tech6 Solutions specializes in creating strong online storefronts with Shopify. We will also incorporate dynamic E-Commerce plugins to help your store reach its full potential.",
+      p3: "uxd Consults specializes in creating strong online storefronts with Shopify. We will also incorporate dynamic E-Commerce plugins to help your store reach its full potential.",
     },
     {
       img: squarespace,
@@ -90,7 +90,7 @@ const SingleWeb = () => {
       h2Span: "Squarespace ",
       p1: "SquareSpace is suitable for both personal and small professional websites. With prebuilt templates, this platform provides numerous tools for giving your web design a professional appearance. ",
       p2: "SquareSpace is another reasonably priced website design choice for you. Get many features with much less effort! ",
-      p3: "If you want to know if SquareSpace is right for you, contact us immediately. Tech6 Solutions will gladly guide you.",
+      p3: "If you want to know if SquareSpace is right for you, contact us immediately. uxd Consults will gladly guide you.",
     },
   ];
   return (
@@ -104,7 +104,7 @@ const SingleWeb = () => {
             marginbottom: "20px",
           }}
         >
-          GO<span>LOGO</span>NOW
+          <span>UXD</span> Consults
         </h1>
         <h2>
           <span>Partner up</span> with the
@@ -324,8 +324,6 @@ const SingleWeb = () => {
       </div>
 
       <ServiceSection />
-      <br />
-      <br />
       <Footer />
     </>
   );

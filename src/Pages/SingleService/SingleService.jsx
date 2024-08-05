@@ -18,27 +18,27 @@ const SingleService = () => {
   const data = [
     {
       img: idea,
-      heading: "LEARNING YOUR POINT OF VIEW.",
+      heading: "LEARNING YOUR POINT OF VIEW",
       text: "We support design solutions that are accessible, moral, and provide everyone the same chances.Every project is approached by our UI/UX designers using flexible techniques to determine the optimal line of action۔Our tried-and-true strategies has established us as the industry standard for design. ",
     },
     {
       img: research,
-      heading: "RESEARCH.",
+      heading: "RESEARCH",
       text: "Our research tactics do not stop at studying your competitors. We take the inventive approach and create picturesque Logo Designs. This originality then triggers an amplification in your brand recognition.",
     },
     {
       img: process,
-      heading: "DEFINING THE SCOPE.",
+      heading: "DEFINING THE SCOPE",
       text: "Our research is sustained with a streamlined process that promotes creativity. We identify the elements necessary to support your vision. These components go on to define the core of your graphics. We focus on enhancing our graphic expertise with every step to create stellar designs.",
     },
     {
       img: time,
-      heading: "COMMUNICATION.",
+      heading: "COMMUNICATION",
       text: "We never leave you out during the process. After conceptualizing your ideas, our design specialists continue to seek your input. Every minute detail, from blueprints and sketches to final concepts, all is communicated to you.",
     },
     {
       img: goal,
-      heading: "EXECUTION.",
+      heading: "EXECUTION",
       text: "As we reach the final stage of the process, we will help you with: Identifying the possible uses of your custom Logo Design. Including uses on business cards, signs, banners, packaging, letterheads, social media profiles, websites, and blogs.Recommendations to keep a consistent visual identity.Implementing your Logo Design for various digital purposes.This will maximize the use of your Logo Design, helping you maintain a gooddigital reputation.",
     },
   ];
@@ -54,7 +54,7 @@ const SingleService = () => {
             marginbottom: "20px",
           }}
         >
-          GO<span>LOGO</span>NOW
+          <span>UXD</span> Consults
         </h1>
         <h2>
           <span>Partner up</span> with the
@@ -67,8 +67,8 @@ const SingleService = () => {
       <WorkSection />
 
       <h1 className="h1">
-        TECH6 SOLUTIONS TRANSFORMS YOUR IDEAS INTO
-        <span>DESIGN SOLUTION.</span>
+        UXD Consults TRANSFORMS YOUR IDEAS INTO
+        <span> DESIGN SOLUTION.</span>
       </h1>
 
       <p className="p">
@@ -186,8 +186,6 @@ const SingleService = () => {
       </div>
 
       <ServiceSection />
-      <br />
-      <br />
       <Footer />
     </>
   );

@@ -21,7 +21,7 @@ const SingleWeb = () => {
       img: img1,
       h2: " APP DEVELOPMENT | SECURITY AND PERFECTION",
       h2Span: "IOS",
-      p1: "Tech6 Solutions mobile app developers excel at creating iOS apps. Our  specialized Swift and Objective-C development team produces flawless  code. Popular niches include social media and music, as well as locationbased apps. We've finished well over a thousand applications. Our app  developers met the platform's stringent security requirements. As a result,  mobile applications become more secure, intelligent, and dynamic.",
+      p1: "uxd Consults mobile app developers excel at creating iOS apps. Our  specialized Swift and Objective-C development team produces flawless  code. Popular niches include social media and music, as well as locationbased apps. We've finished well over a thousand applications. Our app  developers met the platform's stringent security requirements. As a result,  mobile applications become more secure, intelligent, and dynamic.",
       p2: "We want to focus your vision on delivering a better experience. That's why you can count on us 100%.",
     },
     {
@@ -29,7 +29,7 @@ const SingleWeb = () => {
       h2: " DEVELOPMENT WITH UNLIMITED FUNCTIONALITY ",
       h2Span: "ANDROID APP ",
       p1: "Even though iOS apps are known for their superior quality. To begin,  developing an Android app expands your reach. The Android operating  system is extremely popular. Their platform allows for additional  customization options. Another major success of Android apps is their  ability to provide an infinite number of features. Because iOS has restricted  functionality, many users have switched to Android to take advantage of its  boundless capabilities. Furthermore, the platform simplifies marketing  efforts. As a result, the return on investment (ROI) increases.",
-      p2: "Tech6 Solutions is equally skilled in developing Android apps. We have a  well-established reputation in the application development sector.",
+      p2: "uxd Consults is equally skilled in developing Android apps. We have a  well-established reputation in the application development sector.",
       p3: "Our mobile app developers are committed to ensuring project receives  unique consideration.",
       h5: "High-end security, dynamic functionality, and rapid speeds.",
     },
@@ -46,7 +46,7 @@ const SingleWeb = () => {
       h2Span: "ENHANCED ",
       p1: "VR App creation can help your business stand out. These programs are  best suited for simulative learning and development. VR technology  advancements have streamlined and made the process more  understandable.",
       p2: "We have advanced VR testing and 3D animation technology in-house. As a  result, hundreds of projects have been completed successfully. Aside from  lab examinations, large-scale crowd testing is carried out to ensure the  most reliable results.",
-      p3: "Tech6 Solutions is committed to providing you with an experience that  feels as authentic as possible. VR technology inspires us to care about  both the present and the future. Tech6 Solution frequent activities has  assured that our clients receive the best service possible.",
+      p3: "uxd Consults is committed to providing you with an experience that  feels as authentic as possible. VR technology inspires us to care about  both the present and the future. Tech6 Solution frequent activities has  assured that our clients receive the best service possible.",
     },
     {
       img: img5,
@@ -55,7 +55,7 @@ const SingleWeb = () => {
       p1: "Joomla, like WordPress, is a dynamic platform that creates great website designs. This CMS can function well, thanks to SEO support and a limitless number of plugin alternatives. ",
       p2: "Cross-platform or hybrid apps might save you a lot of time. As a result, the  solutions are diversely compatible. You can have one React Native  application running on Android, iOS, and Windows at the same time!  ",
       p3: "We provide top React Native engineers with exceptional skill sets. They are not just React Native Framework experts, but also proficient in a variety of  programming languages.",
-      p4: "Join forces withTech6 Solutions today. We will give your business a boost with our amazing mobile app development services.",
+      p4: "Join forces with uxd Consults today. We will give your business a boost with our amazing mobile app development services.",
       h5: "LEARN MORE ABOUT OUR Windows APP DEVELOPMENT SOLUTIONS. ",
     },
   ];
@@ -70,7 +70,7 @@ const SingleWeb = () => {
             marginbottom: "20px",
           }}
         >
-          GO<span>LOGO</span>NOW
+          <span>UXD</span> Consults
         </h1>
         <h2>
           Our mobile app development company operates in the
@@ -113,8 +113,8 @@ const SingleWeb = () => {
       </p>
 
       <h5 className="h5">
-        Tech6 solutions Our technological team will collaborate with you to
-        develop dynamic mobile applications.
+        uxd Consults Our technological team will collaborate with you to develop
+        dynamic mobile applications.
       </h5>
       <br />
       <br />
@@ -199,8 +199,8 @@ const SingleWeb = () => {
               Premium <span> Mobile App Development Services.</span>
             </h1>
             <h5 className="textImgUparH5">
-              Tech6 solutions Our technological team will collaborate with you
-              to develop dynamic mobile applications.
+              uxd Consults Our technological team will collaborate with you to
+              develop dynamic mobile applications.
             </h5>
             <h6 className="textImgUparH6">
               MOBILE APP DESIGNS FOR A SEAMLESS USER EXPERIENCE.
@@ -398,8 +398,6 @@ const SingleWeb = () => {
       </div>
 
       <ServiceSection />
-      <br />
-      <br />
       <Footer />
     </>
   );

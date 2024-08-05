@@ -9,22 +9,26 @@ const WorkSection = ({ text }) => {
     {
       icon: worldClassIcon,
       title: "WORLD-CLASS ARTISTS",
-      description: "Looking for an original concept or a revamp? We can help.",
+      description:
+        "designing your ideas into realities with flawless executions",
     },
     {
       icon: timeIcon,
       title: "DELIVER ON TIME",
-      description: "We promise success with our Web Design services.",
+      description:
+        "our commitment to punctuality ensures customers to rely on us",
     },
     {
       icon: customerSatisfyIcon,
       title: "CUSTOMER SATISFY",
-      description: "We promise success with our Web Design services.",
+      description:
+        "customer satisfaction is highly guaranteed though our attention to detail and perfectionism",
     },
     {
       icon: moneyBankIcon,
       title: "MONEY-BANKED",
-      description: "We promise success with our Web Design services.",
+      description:
+        "we provide you the best ROI on your investment you could have",
     },
   ];
   return (

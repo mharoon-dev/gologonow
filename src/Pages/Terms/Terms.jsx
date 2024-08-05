@@ -246,7 +246,7 @@ const Terms = () => {
               refund requests will be entertained if you have posted revision on
               any of the initial design samples provided. All refund requests
               should be communicated to the support department.{" "}
-              <span>uxai </span> Consults, upon the violation of your User
+              <span> UXD </span> Consults, upon the violation of your User
               Agreement reserves the right to approve/disapprove your request on
               an individual case to case basis.
             </p>
@@ -429,7 +429,7 @@ const Terms = () => {
           <div className="col-12">
             <p className="privacyDescription">
               After the refund, your design rights would be obtained by
-              <span>uxai</span> Consults and you would not be able to display
+              <span> UXD </span> Consults and you would not be able to display
               any version of the design sent by company. Let us also specify
               that:
             </p>
@@ -451,7 +451,7 @@ const Terms = () => {
                 <CheckIcon className="checkIcon" />
                 <span className="privacyListtext">
                   Working in collaboration with the Government Copyright
-                  Agencies <span>uxai </span>Consults would share Copyright
+                  Agencies <span> UXD </span>Consults would share Copyright
                   Acquisition information for the refunded designs that would
                   restrict the re-use of the designs as original designs in the
                   future.
@@ -660,7 +660,7 @@ const Terms = () => {
                 without limitation, any applicable export controls) in
                 connection with your use of the Service, and such further
                 limitations as may be set forth in any written or on-screen
-                notice from <span>uxai</span> Consults.
+                notice from <span> UXD </span> Consults.
               </p>
             </div>
           </div>

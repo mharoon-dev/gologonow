@@ -13,12 +13,12 @@ const tabs = [
     id: "vision",
     title: "Our Vision",
     content:
-      "We have planned the future we want not only for Tech6 Solutions , but for the world and its industries! We intend to establish a strong hold on e-existence, in which we will not only live but also have comprehensive and simple access. In this mission, we optimize our customers' experiences and deliver on their expectations so that they can see how their objectives are accomplished via accurate digitization. ",
+      "We have planned the future we want not only for uxd Consults , but for the world and its industries! We intend to establish a strong hold on e-existence, in which we will not only live but also have comprehensive and simple access. In this mission, we optimize our customers' experiences and deliver on their expectations so that they can see how their objectives are accomplished via accurate digitization. ",
   },
 ];
 
 const AgencySection = () => {
-  const [activeTab, setActiveTab] = useState("history");
+  const [activeTab, setActiveTab] = useState("mission");
 
   const handleTabClick = (tabId) => {
     setActiveTab(tabId);

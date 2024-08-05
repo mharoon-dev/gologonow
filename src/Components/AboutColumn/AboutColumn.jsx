@@ -3,10 +3,10 @@ import "./aboutColumn.css";
 
 const Column = () => {
   const data = [
-    { id: 1, number: 8705, label: "Projects Completed" },
-    { id: 2, number: 480, label: "Active clients" },
-    { id: 3, number: 626, label: "Cups of coffee" },
-    { id: 4, number: 9704, label: "Happy clients" },
+    { id: 1, number: "100+", label: "Projects Delivered" },
+    { id: 2, number: "150+", label: "Active clients" },
+    { id: 3, number: "250", label: "Cups of coffee" },
+    { id: 4, number: "150+", label: "Happy clients" },
   ];
 
   const [counts, setCounts] = useState(

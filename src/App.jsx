@@ -12,11 +12,13 @@ import Content from "./Pages/Content/Content.jsx";
 import Privacy from "./Pages/Privacy/Privacy.jsx";
 import Terms from "./Pages/Terms/Terms.jsx";
 import Seo from "./Pages/Seo/Seo.jsx";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop .jsx";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -36,4 +38,5 @@ function App() {
     </>
   );
 }
+
 export default App;

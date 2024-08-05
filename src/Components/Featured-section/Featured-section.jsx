@@ -11,7 +11,7 @@ const FeaturedSection = () => {
         </h1>
 
         <p className="featuredDescription">
-          <span>Tech6 Solutions</span> has polished technological ideas and
+          <span>UXD Consults</span> has polished technological ideas and
           announcements throughout the years by sipping a cocktail of
           inspiration, creativity, materialization, and amalgamation, with the
           addition of comprehensive study, steady tread, and unwavering
@@ -19,7 +19,7 @@ const FeaturedSection = () => {
         </p>
 
         <p className="featuredDescription">
-          <span>Tech6 Solutions</span> serves you by putting a diverse range of
+          <span>UXD Consults</span> serves you by putting a diverse range of
           Marketing, Design, and Development services under one roof for
           execution and consulting. Our considerably experienced crew has sieved
           all such aspects that are capable of restraining the expansion of our

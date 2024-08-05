@@ -19,9 +19,6 @@ const About = () => {
       <AboutColumn />
       <Banner2 />
       <AgencySection />
-      <br />
-      <br />
-      <br />
       {/* <CallTo /> */}
       <Footer />
     </>

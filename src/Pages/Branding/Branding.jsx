@@ -84,7 +84,7 @@ const Content = () => {
             marginbottom: "20px",
           }}
         >
-          GO<span>LOGO</span>NOW
+          <span>UXD</span> Consults
         </h1>
         <h2>
           <span>Partner up</span> with the
@@ -105,7 +105,7 @@ const Content = () => {
       </h1>
 
       <p className="p">
-        Tech6 Solutions EXPERT DESIGNER TEAM recognizes the importance of
+        uxd Consults EXPERT DESIGNER TEAM recognizes the importance of
         developing a cohesive and memorable brand image that distinguishes you
         from the competition.
       </p>
@@ -194,8 +194,8 @@ const Content = () => {
               </span>
             </h1>
             <p className="textImgUparH1" id="textImgUparP">
-              Tech6 Solutions offers skilled brand services to help you create
-              the ideal brand.
+              uxd Consults offers skilled brand services to help you create the
+              ideal brand.
             </p>
           </div>
         </div>
@@ -297,8 +297,6 @@ const Content = () => {
       </div>
 
       <ServiceSection />
-      <br />
-      <br />
       <Footer />
     </>
   );

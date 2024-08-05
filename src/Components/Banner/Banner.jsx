@@ -18,8 +18,8 @@ const Banner = () => {
       additional: "And Consultancy",
     },
     {
-      video: "/assets/image.jpg",
-      heading: "WELCOME TO GO<span>LOGO</span>NOW",
+      video: "/assets/image .jpg",
+      heading: "WELCOME TO <span>UXD </span>Consults",
       subHeading: "Leading Global",
       description: "Digital Agency",
       additional: "And Consultancy",

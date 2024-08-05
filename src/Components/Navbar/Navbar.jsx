@@ -148,7 +148,7 @@ const Navbar = () => {
                 </Link>
                 <Link to="/services/seo" style={{ textDecoration: "none" }}>
                   <li
-                    className={location === "/services/content" ? "active" : ""}
+                    className={location === "/services/seo" ? "active" : ""}
                     id="list"
                   >
                     SEO{" "}

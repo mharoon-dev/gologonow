@@ -25,7 +25,7 @@ const Seo = () => {
       h2: " SEO",
       h2Span: "On-page",
       p1: "On-page SEO makes use of a variety of basic aspects, including page content, headlines and headers, metadata, title tags, descriptions, image alt text, and canonical URLs for each page. ",
-      p2: "Tech6 Solutions creates one-of-a-kind and impactful headlines that accurately convey the essence of the text. An eye-catching headline or page header is a great way to get users' attention while also allowing search engines to grasp the context of your content. ",
+      p2: "uxd Consults creates one-of-a-kind and impactful headlines that accurately convey the essence of the text. An eye-catching headline or page header is a great way to get users' attention while also allowing search engines to grasp the context of your content. ",
       p3: "We ensure that your title tags are brief, descriptive, and full of important keywords",
     },
     {
@@ -35,14 +35,14 @@ const Seo = () => {
       p1: "Meta Description is an HTML element in SERPs, containing your company's value propositions and indicating to search engines that your company and products are clearly defined.",
       p2: "The page's value proposition should be a brief and to-the-point statement that explains why your visitors should choose you over your competition. ",
       p3: " Captivating images is essential for captivating your website visitors",
-      p4: " At Tech6 Solutions, we use canonical URLs to avoid duplicate content concerns that harm your SEO ranking.<br/>Captivating images is essential for captivating your website visitors",
+      p4: " At uxd Consults, we use canonical URLs to avoid duplicate content concerns that harm your SEO ranking.<br/>Captivating images is essential for captivating your website visitors",
     },
     {
       img: img3,
       h2: " SEO",
       h2Span: "Off-page ",
-      p1: "Tech6 Solutions offers off-page SEO, a strategy that enhances a website's search engine rankings and visibility by focusing on external factors like backlinks, social media engagement, influencer collaborations, and brand mentions.",
-      p2: "Tech6 Solutions professional SEO team creates useful and relevantbacklinks from authoritative sources. Quality backlinks serve as votes for yourwebsite's credibility.",
+      p1: "uxd Consults offers off-page SEO, a strategy that enhances a website's search engine rankings and visibility by focusing on external factors like backlinks, social media engagement, influencer collaborations, and brand mentions.",
+      p2: "uxd Consults professional SEO team creates useful and relevantbacklinks from authoritative sources. Quality backlinks serve as votes for yourwebsite's credibility.",
       p2: "We integrate social media sharing into your website, enhancing visibility and SEO effectiveness by suggesting social media involvement in posts, thereby promoting social interaction.",
     },
     {
@@ -50,7 +50,7 @@ const Seo = () => {
       h2: "posting  ",
       h2Span: "Guest ",
       p1: "Guest posting, sometimes known as guest blogging, is extremely crucial, especially when attempting to present oneself or one's products to audiences beyond one's established network.",
-      p2: "Influencer outreach is a critical component of influencer marketing that improves both on-page and off-page SEO methods. Tech6 Solutions team of SEO professionals, works with industry influencers and opinion leaders to promote content and get permitted backlinks, increasing brand visibility and communication consistency. ",
+      p2: "Influencer outreach is a critical component of influencer marketing that improves both on-page and off-page SEO methods. uxd Consults team of SEO professionals, works with industry influencers and opinion leaders to promote content and get permitted backlinks, increasing brand visibility and communication consistency. ",
     },
     {
       img: img5,
@@ -58,7 +58,7 @@ const Seo = () => {
       h2Span: "Technical ",
       p1: "Technical SEO is the third pillar of the SEO process, focusing on improving a website's technical components to make it more search-engine friendly",
       p2: "Slow-loading websites, even well-optimized ones, can lead to users skipping to the next link in SERPs.",
-      p3: "Tech6 Solutions SEO experts focus on reducing site loading time through various techniques, including updating WordPress websites, optimizing background processes, using Content Delivery Networks, theme optimization, image optimization, and code bloating. ",
+      p3: "uxd Consults SEO experts focus on reducing site loading time through various techniques, including updating WordPress websites, optimizing background processes, using Content Delivery Networks, theme optimization, image optimization, and code bloating. ",
     },
     {
       img: img6,
@@ -73,7 +73,7 @@ const Seo = () => {
       h2: " SECURITY",
       h2Span: "SSL ",
       p1: "SSL Security is like a sentinel, ensuring that all information passed between your website and your customers is encrypted and protected from prying eyes.",
-      p2: "A sitemap is required for search engines to index your WordPress website and make it available to your target audience. Tech6 Solutions provides SEO services to produce an optimum sitemap that adheres to the highest criteria.",
+      p2: "A sitemap is required for search engines to index your WordPress website and make it available to your target audience. uxd Consults provides SEO services to produce an optimum sitemap that adheres to the highest criteria.",
     },
   ];
   return (
@@ -87,7 +87,7 @@ const Seo = () => {
             marginbottom: "20px",
           }}
         >
-          GO<span>LOGO</span>NOW
+          <span>UXD</span> Consults
         </h1>
         <h2>
           <span>Partner up</span> with the
@@ -108,7 +108,7 @@ const Seo = () => {
       </h1>
 
       <p className="p">
-        Tech6 Solutions EXPERT DESIGNER TEAM recognizes the importance of
+        uxd Consults EXPERT DESIGNER TEAM recognizes the importance of
         developing a cohesive and memorable brand image that distinguishes you
         from the competition.
       </p>
@@ -197,8 +197,8 @@ const Seo = () => {
               </span>
             </h1>
             <p className="textImgUparH1" id="textImgUparP">
-              Tech6 Solutions offers skilled brand services to help you create
-              the ideal brand.
+              uxd Consults offers skilled brand services to help you create the
+              ideal brand.
             </p>
           </div>
         </div>
@@ -315,8 +315,6 @@ const Seo = () => {
       </div>
 
       <ServiceSection />
-      <br />
-      <br />
       <Footer />
     </>
   );
