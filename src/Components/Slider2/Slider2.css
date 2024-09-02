@@ -1,0 +1,18 @@
+.slider2Img {
+    width: 250px;
+    margin: 0 10px;
+    cursor: pointer;
+    opacity: 0.2;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.slider2Img:hover {
+    opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+    .slider2Container {
+        display: none !important;
+    }
+}

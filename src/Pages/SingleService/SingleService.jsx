@@ -158,25 +158,29 @@ const SingleService = () => {
       <div className="container-fluid mt-5 mb-5 imgWithText">
         <div className="row">
           {data.map((item, index) => (
-            <div key={index} className="row mt-4 mb-4">
+            <div key={index} className="row mt-4 m-0 mb-4">
               {index % 2 === 0 ? (
                 <>
-                  <div className="offset-1  col-5 d-flex justify-content-center align-items-start">
-                    <img src={item.img} width="50%" alt={item.heading} />
+                  <div className="offset-lg-1  col-lg-5 col-12 d-flex justify-content-center align-items-center">
+                    <img src={item.img} width="100%" alt={item.heading} />
                   </div>
-                  <div className="col-6">
-                    <h2 className="text-left mb-2 h">{item.heading}</h2>
-                    <p className="w-75">{item.text}</p>
+                  <div className="col-lg-6 col-12">
+                    <h2 className="w-100 text-lg-left text-center mb-2 h">
+                      {item.heading}
+                    </h2>
+                    <p className="col-lg-10 col-12 text-lg-left text-center">{item.text}</p>
                   </div>
                 </>
               ) : (
                 <>
-                  <div className="offset-1 col-6 d-flex flex-column justify-content-center align-items-start ">
-                    <h2 className="text-left mb-2 h">{item.heading}</h2>
-                    <p className="w-75">{item.text}</p>
+                  <div className="offset-lg-1  col-lg-5 col-12 d-flex justify-content-center align-items-center">
+                    <img src={item.img} width="100%" alt={item.heading} />
                   </div>
-                  <div className="col-5  text-center">
-                    <img src={item.img} width="50%" alt={item.heading} />
+                  <div className="col-lg-6 col-12">
+                    <h2 className="w-100 text-lg-left text-center mb-2 h">
+                      {item.heading}
+                    </h2>
+                    <p className="col-lg-10 col-12 text-lg-left text-center">{item.text}</p>
                   </div>
                 </>
               )}

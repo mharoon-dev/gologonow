@@ -6,15 +6,25 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
+    /* Allow content to wrap on smaller screens */
+}
+
+.right,
+.footerMiddle,
+.left {
+    width: 400px !important;
+    border-right: none;
+    padding-left: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px !important;
 }
 
 .right {
-    width: 400px;
-    border-right: var(--white-color) 1px solid !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: flex-start !important;
-    align-items: flex-start !important;
+    text-align: center;
 }
 
 .footerTitle {
@@ -37,7 +47,8 @@
     margin-bottom: 20px;
     font-weight: 300;
     line-height: 1.4;
-    text-align: left !important;
+    text-align: center !important;
+    /* Center align text */
 }
 
 .footerDescriptionEmail {
@@ -46,10 +57,7 @@
 }
 
 .footerMiddle {
-    width: 400px;
-    border-right: var(--white-color) 1px solid !important;
-    padding-left: 50px;
-    height: 100%;
+    padding-left: 0;
 }
 
 .footerList {
@@ -57,31 +65,20 @@
     list-style: none;
     line-height: 1.4;
     padding-left: 0;
+    text-align: center;
+    /* Center align list items */
 }
 
 .footerList>li {
     margin-bottom: 10px !important;
 }
 
-.footerList>li {
-    margin-bottom: 10px;
-}
-
-.left {
-    width: 400px;
-    padding-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100%;
-}
-
 .imgDiv {
     width: 250px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: center;
+    /* Center the image */
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -101,18 +98,21 @@
 }
 
 .addressDiv {
-    width: 350px;
+    width: auto;
+    /* Auto width for small screens */
     display: flex;
     flex-direction: column !important;
-    justify-content: flex-start;
-    align-items: flex-start;
-
+    justify-content: center;
+    align-items: center;
+    /* Center align content */
 }
 
 .footeraddress {
     color: var(--white-color) !important;
     font-weight: 300;
     line-height: 1.4 !important;
+    text-align: center;
+    /* Center align text */
 }
 
 .phone {
@@ -127,7 +127,6 @@
     font-size: x-large !important;
     margin-right: 5px;
     margin-bottom: -5px;
-
 }
 
 @media (max-width: 1200px) {
@@ -142,59 +141,57 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) {
     .footerContainer {
-        flex-direction: column;
+        flex-direction: row;
+        /* Ensure items are in a single line for larger screens */
     }
 
-    .footerTitle {
-        text-align: left;
+    .right,
+    .footerMiddle,
+    .left {
+        width: 33.33%;
+        /* Each section takes one-third of the container width */
+        text-align: center;
+        margin-top: 0;
+        /* Remove margin for larger screens */
     }
 
-    .footerTitle>span {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .right {
-        width: 100%;
-        border-right: none;
-        padding-left: 0;
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start !important;
-        align-items: flex-start !important;
-    }
-
+    .right,
     .footerMiddle {
-        width: 100%;
-        border-right: none;
-        padding-left: 0;
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        border-right: 1px solid var(--white-color) !important;
+        /* Add right border */
     }
 
     .left {
-        width: 100%;
-        padding-left: 0;
-        margin-top: 30px;
-        border: none !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start !important;
+        border-right: none;
+        /* No border for left section */
+    }
+}
+
+@media (max-width: 768px) {
+    .footerContainer {
+        padding: 40px 20px;
     }
 
-    .addressDiv {
+    .right,
+    .footerMiddle,
+    .left {
+        width: 100%;
+        /* Ensure each section takes full width */
+        text-align: center;
+        margin-top: 30px;
+        /* Margin between sections */
+    }
+
+    .addressDiv,
+    .footeraddress {
         margin-bottom: 0 !important;
+        /* Remove bottom margin */
     }
 
     .footerList>li {
         text-align: center;
+        /* Center list items */
     }
-
 }

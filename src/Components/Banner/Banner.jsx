@@ -4,6 +4,12 @@ import whiteCurveImg from "../../../public/assets/right-white-curve.png";
 import curvedBgImg from "../../../public/assets/right-curved-bg.png";
 import BlackButton from "../BlackButton/BlackButton.jsx";
 import YellowButton from "../YellowButton/YellowButton.jsx";
+import linkedin from "../../../public/assets/icons/linkedin.png";
+import twitter from "../../../public/assets/icons/twitter.png";
+import instagram from "../../../public/assets/icons/insta.png";
+
+// images
+
 
 const Banner = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -65,6 +71,32 @@ const Banner = () => {
                   Your browser does not support the video tag.
                 </video>
                 <div className="left-text">
+                  <img
+                    src={linkedin}
+                    className="ms-0 ps-0"
+                    style={{ transform: "rotate(90deg)" }}
+                    width={40}
+                    alt=""
+                  />
+                  &nbsp;&nbsp;
+                  <img
+                    src={instagram}
+                    className="ms-0 ps-0"
+                    style={{ transform: "rotate(90deg)" }}
+                    width={40}
+                    alt=""
+                  />
+                  &nbsp;&nbsp;
+                  <img
+                    src={twitter}
+                    className="ms-0 ps-0"
+                    style={{ transform: "rotate(90deg)" }}
+                    width={40}
+                    alt=""
+                  />
+                  &nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   MON - FRI &nbsp;&nbsp;&nbsp; 9AM TO 7PM
                 </div>
                 <div>
@@ -73,6 +105,7 @@ const Banner = () => {
                     alt="White Curve"
                     className="white-curve-img"
                   />
+                  &nbsp;&nbsp;
                   <img
                     src={curvedBgImg}
                     alt="Curved Background"

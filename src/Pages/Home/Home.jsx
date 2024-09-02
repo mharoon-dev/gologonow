@@ -8,7 +8,10 @@ import Column from "../../Components/Column/Column.jsx";
 import Banner2 from "../../Components/Banner2/Banner2.jsx";
 import Gallery from "../../Components/Gallery/Gallery.jsx";
 import Footer from "../../Components/Footer/Footer.jsx";
-import CallTo from "../../Components/CallTo/CallTo.jsx";
+// import CallTo from "../../Components/CallTo/CallTo.jsx";
+import AwardCardSlider from "../../Components/AwardCardSlider/AwardCardSlider.jsx";
+import Slider2 from "../../Components/Slider2/Slider2.jsx";
+import Reviews from "../../Components/Reviews/Reviews.jsx";
 
 const Home = () => {
   return (
@@ -18,7 +21,10 @@ const Home = () => {
       <ServiceSection />
       {/* <WeDoSection /> */}
       <Column />
+      <AwardCardSlider />
       <Banner2 />
+      <Slider2 />
+      <Reviews />
       <Gallery />
       {/* <CallTo /> */}
       <Footer />

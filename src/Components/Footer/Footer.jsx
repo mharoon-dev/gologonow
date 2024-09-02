@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="footerContainer">
+    <div className="footerContainer container-fluid">
       <div className="right">
         <h4 className="footerTitle" style={{ marginBottom: "0 !important" }}>
           About

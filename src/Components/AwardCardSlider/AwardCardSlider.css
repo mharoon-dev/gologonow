@@ -1,0 +1,72 @@
+    .awardCardSliderHeading {
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 1.2;
+        color: var(--text-color);
+    }
+
+    .awardCardSliderHeading>span {
+        color: var(--primary-color);
+    }
+
+
+    .cardContainer {
+        background-color: var(--white-color);
+        width: 20rem !important;
+        padding: 25px;
+        margin: 20px;
+        scroll-snap-align: start;
+    }
+
+    .textSpan {
+        color: #000;
+        font-size: 1rem !important;
+        font-weight: 400;
+    }
+
+    .textBold {
+        color: #000;
+        font-size: 1.2rem;
+    }
+
+    .texth6 {
+        color: #000;
+        font-size: 1rem;
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+
+    .row::-webkit-scrollbar {
+        display: none;
+    }
+
+    .row {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        flex-wrap: nowrap !important;
+    }
+
+    .row::-webkit-scrollbar {
+        display: none;
+        /* Chrome, Safari and Opera */
+    }
+
+
+
+    @media (max-width: 768px) {
+        .awardCardSliderHeading {
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .cardContainer {
+            width: 100% !important;
+        }
+    }
