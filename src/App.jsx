@@ -13,6 +13,7 @@ import Privacy from "./Pages/Privacy/Privacy.jsx";
 import Terms from "./Pages/Terms/Terms.jsx";
 import Seo from "./Pages/Seo/Seo.jsx";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop .jsx";
+import Portfolio from "./Pages/Portfolio/Portfolio.jsx";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/services/web" element={<Web />} />
           <Route path="/services/app" element={<SingleApp />} />
           <Route path="/services/branding" element={<Branding />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/services/content" element={<Content />} />
           <Route path="/services/seo" element={<Seo />} />
           <Route path="/privacy" element={<Privacy />} />

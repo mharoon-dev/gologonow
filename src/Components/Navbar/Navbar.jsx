@@ -157,6 +157,12 @@ const Navbar = () => {
               </>
             )}
 
+            <Link to="/portfolio" style={{ textDecoration: "none" }}>
+              <li className={location === "/portfolio" ? "active" : ""}>
+                PORTFOLIO{" "}
+              </li>
+            </Link>
+
             <Link to="/process" style={{ textDecoration: "none" }}>
               <li className={location === "/process" ? "active" : ""}>
                 Our Process

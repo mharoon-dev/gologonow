@@ -1,18 +1,15 @@
 import "./Slider2.css";
 import bg from "../../../public/assets/aboutWeDo/bg.png";
 
-import img1 from "../../../public/assets/Slider2/1.svg";
-import img2 from "../../../public/assets/Slider2/2.svg";
-import img3 from "../../../public/assets/Slider2/3.svg";
-import img4 from "../../../public/assets/Slider2/4.svg";
-import img5 from "../../../public/assets/Slider2/5.svg";
+import img1 from "../../../public/assets/Slider2/1.png";
+import img2 from "../../../public/assets/Slider2/2.jpg";
+import img3 from "../../../public/assets/Slider2/3.png";
+import img4 from "../../../public/assets/Slider2/4.jpg";
+import img5 from "../../../public/assets/Slider2/5.jpeg";
 import img6 from "../../../public/assets/Slider2/6.png";
-import img7 from "../../../public/assets/Slider2/7.png";
-
-// https://www.gologonow.com/images/clients/7.png
 
 const Slider2 = () => {
-  const data = [img1, img2, img3, img4, img5, img6, img7];
+  const data = [img1, img2, img3, img4, img5, img6];
 
   return (
     <>

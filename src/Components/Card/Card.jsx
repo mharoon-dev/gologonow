@@ -2,7 +2,7 @@ import "./Card.css";
 
 const Card = ({ icon, number, title }) => {
   return (
-    <div className="card">
+    <div className="card cardd">
       <div className="iconContainer">
         <span className="number">{number}</span>
         <img src={icon} />

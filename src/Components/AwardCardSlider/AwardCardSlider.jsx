@@ -1,5 +1,10 @@
 import "./AwardCardSlider.css";
 import bg from "../../../public/assets/aboutWeDo/bg.png";
+import img1 from "../../../public/assets/Awards/1.png";
+import img2 from "../../../public/assets/Awards/2.png";
+import img3 from "../../../public/assets/Awards/3.svg";
+import img4 from "../../../public/assets/Awards/4.png";
+import img5 from "../../../public/assets/Awards/5.png";
 
 const AwardCardSlider = () => {
   return (
@@ -33,120 +38,33 @@ const AwardCardSlider = () => {
             flexWrap: "nowrap !important",
           }}
         >
-          <div className="cardContainer">
-            <div className="row mb-0">
-              <div className="col-12 d-flex justify-content-center">
-                <img
-                  src="https://www.gologonow.com/icons/badge/trust%20pilot.png"
-                  alt=""
-                  width={200}
-                />
-              </div>
-            </div>
-            <div className=" p-3 pt-1  text-center">
-              <h6 className="texth6">
-                <b className="textBold">Sitejabber </b>
-                Customer Choice Awards
-              </h6>
+          {[img1, img2, img3, img4, img5].map((item, index) => {
+            return (
+              <>
+                <div className="cardContainer">
+                  <div className="row mb-0">
+                    <div className="col-12 d-flex justify-content-center">
+                      <img src={item} alt="" width={200} />
+                    </div>
+                  </div>
+                  <div className=" p-3 pt-1  text-center">
+                    <h6 className="texth6">
+                      <b className="textBold">Sitejabber </b>
+                      Customer Choice Awards
+                    </h6>
 
-              <span className="textSpan">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-                ab.
-              </span>
-            </div>
-          </div>
-
-          <div className="cardContainer">
-            <div className="row mb-0">
-              <div className="col-12 d-flex justify-content-center">
-                <img
-                  src="https://www.gologonow.com/icons/badge/trust%20pilot.png"
-                  alt=""
-                  width={200}
-                />
-              </div>
-            </div>
-            <div className=" p-3 pt-1 text-center">
-              <h6 className="texth6">
-                <b className="textBold">Sitejabber </b>
-                Customer Choice Awards
-              </h6>
-
-              <span className="textSpan">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-                ab.
-              </span>
-            </div>
-          </div>
-          <div className="cardContainer">
-            <div className="row mb-0">
-              <div className="col-12 d-flex justify-content-center">
-                <img
-                  src="https://www.gologonow.com/icons/badge/trust%20pilot.png"
-                  alt=""
-                  width={200}
-                />
-              </div>
-            </div>
-            <div className=" p-3 pt-1 text-center">
-              <h6 className="texth6">
-                <b className="textBold">Sitejabber </b>
-                Customer Choice Awards
-              </h6>
-
-              <span className="textSpan">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-                ab.
-              </span>
-            </div>
-          </div>
-          <div className="cardContainer">
-            <div className="row mb-0">
-              <div className="col-12 d-flex justify-content-center">
-                <img
-                  src="https://www.gologonow.com/icons/badge/trust%20pilot.png"
-                  alt=""
-                  width={200}
-                />
-              </div>
-            </div>
-            <div className=" p-3 pt-1 text-center">
-              <h6 className="texth6">
-                <b className="textBold">Sitejabber </b>
-                Customer Choice Awards
-              </h6>
-
-              <span className="textSpan">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-                ab.
-              </span>
-            </div>
-          </div>
-          <div className="cardContainer">
-            <div className="row mb-0">
-              <div className="col-12 d-flex justify-content-center">
-                <img
-                  src="https://www.gologonow.com/icons/badge/trust%20pilot.png"
-                  alt=""
-                  width={200}
-                />
-              </div>
-            </div>
-            <div className=" p-3 pt-1 text-center">
-              <h6 className="texth6">
-                <b className="textBold">Sitejabber </b>
-                Customer Choice Awards
-              </h6>
-
-              <span className="textSpan">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-                ab.
-              </span>
-            </div>
-          </div>
-
-          {/* Repeat card structure as needed */}
-          {/* Additional card elements */}
+                    <span className="textSpan">
+                      <span style={{ fontWeight: "900", color: "#FBAA19" }}>
+                        UXD Consults
+                      </span>{" "}
+                      Ranked 7th by SiteJabber amoung the Top 200 Graphic Design
+                      Companies.
+                    </span>
+                  </div>
+                </div>
+              </>
+            );
+          })}
         </div>
       </div>
     </>

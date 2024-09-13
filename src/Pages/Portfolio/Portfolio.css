@@ -1,0 +1,34 @@
+.portfolioHeading {
+  font-size: 50px !important;
+  font-weight: 900;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+.portfolioHeading span {
+  color: var(--primary-color);
+}
+
+/* Add these styles */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.gallery-item {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.gallery-item img,
+.gallery-item video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

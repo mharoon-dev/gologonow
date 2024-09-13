@@ -5,7 +5,7 @@ import QuestionsSection from "../../Components/QuestionsSection/QuestionsSection
 import AboutColumn from "../../Components/AboutColumn/AboutColumn.jsx";
 import Banner2 from "../../Components/Banner2/Banner2.jsx";
 import Footer from "../../Components/Footer/Footer.jsx";
-import CallTo from "../../Components/CallTo/CallTo.jsx";
+// import CallTo from "../../Components/CallTo/CallTo.jsx";
 import "./about.css";
 import AgencySection from "../../Components/AgencySection/AgencySection.jsx";
 

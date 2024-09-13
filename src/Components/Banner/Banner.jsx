@@ -6,10 +6,16 @@ import BlackButton from "../BlackButton/BlackButton.jsx";
 import YellowButton from "../YellowButton/YellowButton.jsx";
 import linkedin from "../../../public/assets/icons/linkedin.png";
 import twitter from "../../../public/assets/icons/twitter.png";
-import instagram from "../../../public/assets/icons/insta.png";
+import fb from "../../../public/assets/icons/fb.png";
+
+// awards image
+import img1 from "../../../public/assets/Awards/1.png";
+import img2 from "../../../public/assets/Awards/2.png";
+import img3 from "../../../public/assets/Awards/3.svg";
+import img4 from "../../../public/assets/Awards/4.png";
+import img5 from "../../../public/assets/Awards/5.png";
 
 // images
-
 
 const Banner = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,7 +30,7 @@ const Banner = () => {
       additional: "And Consultancy",
     },
     {
-      video: "/assets/image .jpg",
+      image: "/assets/image .jpg",
       heading: "WELCOME TO <span>UXD </span>Consults",
       subHeading: "Leading Global",
       description: "Digital Agency",
@@ -66,34 +72,53 @@ const Banner = () => {
               }`}
             >
               <div className="banner" id="item2">
-                <video autoPlay loop muted className="video-bg">
-                  <source src={item.video} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                {item.image ? (
+                  <img src={item.image} className="video-bg" alt="..." />
+                ) : (
+                  <video
+                    src={item.video}
+                    className="video-bg"
+                    autoPlay
+                    muted
+                    loop
+                  />
+                )}
                 <div className="left-text">
-                  <img
-                    src={linkedin}
-                    className="ms-0 ps-0"
-                    style={{ transform: "rotate(90deg)" }}
-                    width={40}
-                    alt=""
-                  />
+                  <a
+                    href="https://www.linkedin.com/company/uxdconsults/"
+                    target="_blank"
+                  >
+                    <img
+                      src={linkedin}
+                      className="ms-0 ps-0"
+                      style={{ transform: "rotate(90deg)" }}
+                      width={40}
+                      alt=""
+                    />
+                  </a>
                   &nbsp;&nbsp;
-                  <img
-                    src={instagram}
-                    className="ms-0 ps-0"
-                    style={{ transform: "rotate(90deg)" }}
-                    width={40}
-                    alt=""
-                  />
+                  <a
+                    href="https://www.facebook.com/uxdconsult/"
+                    target="_blank"
+                  >
+                    <img
+                      src={fb}
+                      className="ms-0 ps-0"
+                      style={{ transform: "rotate(90deg)" }}
+                      width={40}
+                      alt=""
+                    />
+                  </a>
                   &nbsp;&nbsp;
-                  <img
-                    src={twitter}
-                    className="ms-0 ps-0"
-                    style={{ transform: "rotate(90deg)" }}
-                    width={40}
-                    alt=""
-                  />
+                  <a href="www.x.com" target="_blank">
+                    <img
+                      src={twitter}
+                      className="ms-0 ps-0"
+                      style={{ transform: "rotate(90deg)" }}
+                      width={40}
+                      alt=""
+                    />
+                  </a>
                   &nbsp;&nbsp;
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -124,6 +149,42 @@ const Banner = () => {
                 <div className="buttons">
                   <BlackButton text={"Get a Free Quote"} />
                   <YellowButton />
+                </div>
+                <br />
+                <div
+                  className="awards d-flex justify-content-start align-items-end ms-5 ps-5 awards-imgs"
+                  style={{
+                    zIndex: "1",
+                  }}
+                >
+                  <span className="awards-text  ">Awards</span>
+                  {[
+                    { img: img1, location: "https://www.trustpilot.com/" },
+                    { img: img2, location: "https://www.designrush.com/" },
+                    { img: img3, location: "https://clutch.co/" },
+                    { img: img4, location: "https://www.sitejabber.com/" },
+                    { img: img5, location: "https://www.bark.com/en/gb/" },
+                  ].map((item, index) => (
+                    <a
+                      href={item.location}
+                      className="d-flex align-items-center justify-content-center"
+                      target="_blank"
+                    >
+                      <img
+                        src={item.img}
+                        alt="img1"
+                        className="img1 ms-4  "
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          transform: "rotate(0deg)",
+                          marginBottom: "-20px",
+                          width: "80px",
+                        }}
+                      />
+                    </a>
+                  ))}
                 </div>
               </div>
             </div>

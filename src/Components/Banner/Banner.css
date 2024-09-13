@@ -40,7 +40,7 @@
 
 .left-text {
     position: absolute;
-    left:-120px;
+    left: -120px;
     margin-left: -90px !important;
     font-size: 19px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -203,6 +203,13 @@
     transition: opacity 0.2 ease-in-out !important;
 }
 
+.awards-text {
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-weight: 700;
+}
+
 
 
 @media (min-width: 1401px) {
@@ -239,10 +246,10 @@
         font-size: 55px;
     }
 
-    .text-content,
-    .buttons {
-        /* margin-left: 25px !important; */
+    .awards-imgs {
+        display: none !important;
     }
+
 }
 
 @media (max-width: 768px) {

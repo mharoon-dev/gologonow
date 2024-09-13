@@ -46,6 +46,14 @@ const Reviews = () => {
       <h2 className="section-title">
         Customer <span className="overall-rating">feedbacks</span>
       </h2>
+      <div className="d-flex justify-content-between align-items-center">
+        <div className="left d-inline">
+          UXD Consults 4.8 <span className="stars d-inline">★★★★★</span>
+        </div>
+        <div className="right d-inline">
+          Powered by <span style={{ color: "var(--primary-color)",fontWeight: "bold" }}>Clutch</span>
+        </div>
+      </div>
       <div className="reviews-carousel">
         <div className="reviews">
           {reviews.map((review, index) => (

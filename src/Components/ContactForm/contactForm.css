@@ -10,8 +10,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    row-gap: 20px;
+    align-items: flex-end !important;
+    /* row-gap: 20px; */
     width: 50%;
     padding-left: 0;
 }
@@ -67,7 +67,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     row-gap: 20px;
     width: 50%;
     padding-left: 50px;
@@ -118,6 +118,8 @@ textarea {
     line-height: 1;
     margin: 0;
     background-color: #f4f5f8 !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
 }
 
 .inputContainer {
@@ -130,7 +132,7 @@ textarea {
 
 input {
     width: 45% !important;
-    margin: 10px;
+    margin: 10px 0;
     height: 60px;
 }
 
